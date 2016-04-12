@@ -1,0 +1,44 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int c;
+    char A;
+
+    for (c=1; c<=10; c++){
+        if (c==10){
+           cout<<c;
+        }else{
+        cout<<c<<",";}
+    }
+    cout<<endl<<endl<<"Decrement dari angka 10 ke 1"<<endl<<endl;
+
+        for (c=10; c>=1; c--){
+        if (c==1){
+            cout<<c;
+        }else{
+        cout<<c<<",";}
+        }
+
+        cout<<endl<<endl;
+
+    for (A='A'; A<='J'; A++){
+        if (A=='Z'){
+            cout<<A;
+        }else{
+        cout<<A<<",";}
+    }
+         cout<<endl<<endl;
+
+            for (A='J'; A>='A'; A++){
+        if (A=='Z'){
+            cout<<A;
+        }else{
+        cout<<A<<",";}
+
+    }
+
+    return 0;
+}
