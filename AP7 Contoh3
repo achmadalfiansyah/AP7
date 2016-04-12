@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    int angka;
+    int total;
+    total=0;
+    int a;
+
+    cout<<"Masukkan jumlah angka   :";
+    cin>>a;
+    cout<<endl;
+
+    for (n=1; n<=a; n++){
+            cout<<"Masukkan angka   : ";
+            cin>>angka;
+total=total+angka;
+    }
+cout<<"jumlah angka yang diinput  :"<<total<<endl;
+
+
+
+}
